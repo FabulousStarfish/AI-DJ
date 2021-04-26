@@ -1,0 +1,88 @@
+#heading{
+    background-color: rgb(199, 179, 0);
+    padding: 15px;
+    top: 0;
+    position: fixed;
+    margin-top: 0px;
+    color: white;
+    width: 100%;
+}
+#note{
+    color: black;
+    font-size: 17.5px;
+}
+span{
+    visibility: hidden;
+}
+#play{
+    background-color: rgb(16, 177, 16);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+    width: 32%;
+}
+#stop{
+    background-color: rgb(206, 35, 35);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+    width: 32%;
+}
+#pause{
+    background-color: rgb(255, 72, 0);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+    width: 32%;
+}
+body{
+    background-size: cover;
+}
+#speed_column{
+    float: left;
+    width: 20%;
+}
+#volume_column{
+    float: right;
+    width: 20%;
+}
+.gif_class{
+    width: 200px;
+    border-radius: 100px;
+}
+.side_buttons{
+    background-color: red;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.glyphicon{
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+}
+#heading:hover span{
+    visibility: visible;
+}
+canvas{
+    border: 4px white solid;
+    box-shadow: 10px 10px 40px rgb(199, 179, 0);
+}
